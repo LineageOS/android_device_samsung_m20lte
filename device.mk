@@ -5,6 +5,10 @@ $(call inherit-product, device/samsung/universal7904-common/universal7904-common
 
 $(call inherit-product, vendor/samsung/m20lte/m20lte-vendor.mk)
 
+# Camera
+PRODUCT_PACKAGES += \
+    ApertureOverlayM20
+
 # Graphics
 PRODUCT_PACKAGES += \
     libexynosgscaler
